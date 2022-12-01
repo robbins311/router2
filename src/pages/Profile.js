@@ -10,7 +10,10 @@ const data = {
     description: "일본 다녀온 사람임..",
   },
 };
-
+/* 
+URL 파라미터 예시: /profile/velopert
+쿼리스트링 예시: /articles?**page=1&keyword=react
+*/
 const Profile = () => {
   const params = useParams();
   const profile = data[params.username];

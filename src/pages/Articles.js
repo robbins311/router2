@@ -4,6 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 const Articles = () => {
   return (
     <div>
+      {/* 중첩 라우터 사용 = Outlet */}
       <Outlet />
       <ul>
         <li>
@@ -13,7 +14,7 @@ const Articles = () => {
           <Link to="/articles/2">게시글 2</Link>
         </li>
         <li>
-          <Link to="/articles/3">게시글 3</Link>
+          <Link to="/articles/4">게시글 3</Link>
         </li>
       </ul>
     </div>
